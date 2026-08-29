@@ -1,0 +1,12 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "rust-index"
+version = "0.1.0"
+description = "Fast dataset indexing/query engine for perception training data, exposed to Python via PyO3"
+requires-python = ">=3.9"
+
+[tool.maturin]
+module-name = "rust_index"

@@ -1,0 +1,7 @@
+torch
+torchvision
+pillow
+dagster
+dagster-webserver
+mlflow
+maturin
